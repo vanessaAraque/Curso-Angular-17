@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { DayComponent } from '../day/day.component';
 
-function* getDays()
-{
+function* getDays(){
   for(let i=0;i<31;i++){
-    yield i+1;
+    yield i+1
   }
 }
 

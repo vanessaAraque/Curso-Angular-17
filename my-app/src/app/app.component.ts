@@ -5,11 +5,11 @@ import { CalendarComponent } from './calendar/calendar/calendar.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CalendarComponent],
-  templateUrl: './app.component.html'
+  imports:[CalendarComponent],
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  name = 'Vanessa';
+  name = 'Pedro';
   user = undefined;
-  data = [1,2,3,4,5,6]
+  data=[1,2,3,4,5,6]
 }

@@ -1,18 +1,19 @@
 <app-calendar></app-calendar>
+
 <div>{{name}}</div>
 
-@if (user){
+@if(user){
   <div>{{user}}</div>
 }
-@else {
+@else{
   <button>Loggin</button>
 }
 
 <ul>
-@for (v of data; track v)
-{
-  <li>{{v}}</li>
-} @ empty{
-  <li>No existen elementos</li>
-}
+  @for (v of data; track v) {
+    <li>{{v}}</li>
+  }
+  @empty {
+    <li>No existen elementos</li>
+  }
 </ul>
