@@ -1,5 +1,4 @@
-<div class="calendar">
+
     @for (day of days; track day) {
-      <app-day [day]="day"></app-day>
+      <app-day [day]="day" (click)="handlerClick(day)"></app-day>
     }
-  </div>

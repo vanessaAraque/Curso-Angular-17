@@ -16,4 +16,8 @@ function* getDays(){
 })
 export class CalendarComponent {
   days=[...getDays()]
+  handlerClick(day:Number)
+  {
+    console.log(day)
+  }
 }

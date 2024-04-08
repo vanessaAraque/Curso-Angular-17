@@ -9,7 +9,7 @@ import { CalendarComponent } from './calendar/calendar/calendar.component';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  name = 'Pedro';
+  name = 'Vanesa';
   user = undefined;
   data=[1,2,3,4,5,6]
 }
