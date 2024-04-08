@@ -5,11 +5,12 @@ import { FormComponent } from './controls/form/form.component';
 import { CounterComponent } from './counter/counter.component';
 import { TimerComponent } from './timer/timer.component';
 import { TrasclusionComponent } from './trasclusion/trasclusion.component';
+import { LayoutComponent } from './pages/layout/layout.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports:[CalendarComponent,AppComponent,FormComponent,CounterComponent, TimerComponent, TrasclusionComponent],
+  imports:[CalendarComponent,AppComponent,FormComponent,CounterComponent, TimerComponent, TrasclusionComponent, LayoutComponent],
   templateUrl: './app.component.html',
 })
 export class AppComponent {
