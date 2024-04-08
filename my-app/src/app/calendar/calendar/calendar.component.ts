@@ -26,7 +26,7 @@ export class CalendarComponent {
     )
     if(node){
       const {day} = node.dataset
-      console.log(node)
+      console.log(day)
     }
   }
 }
