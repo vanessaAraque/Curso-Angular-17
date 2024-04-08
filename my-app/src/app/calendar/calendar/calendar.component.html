@@ -1,4 +1,4 @@
 
     @for (day of days; track day) {
-      <app-day [day]="day" (click)="handlerClick(day)"></app-day>
+      <app-day [day]="day" [attr.data-day]="day"></app-day>
     }
